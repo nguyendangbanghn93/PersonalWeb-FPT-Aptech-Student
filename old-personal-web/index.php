@@ -4,6 +4,7 @@
 	<title>Nguyễn Đăng Bằng</title>
 	<link rel="shortcut icon" type="image/png" href="image/B.png"/>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charshet="utf-8" />
 </head>
 <body>
 	<div id="top" id="main">
