@@ -20,7 +20,7 @@
 					<li id="home"><a href ="index.PHP">Home</a></li>
 					<li><a href ="BaigiangC.html"> C </a>
 						<ul class   ="menu2">
-						<li><a href ="BaigiangC.html">Lesson</a></li>
+						<li><a href ="BaigiangC.php">Lesson</a></li>
 						<li><a href ="BaitapC.html">Exercise</a></li>
 						</ul>
 					</li>
