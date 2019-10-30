@@ -1,0 +1,150 @@
+.navbar-expand-lg .navbar-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: column;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: pre-wrap;
+}
+
+.mh-100 {
+    min-height: 126px
+}
+
+.bg-ncw {
+    background: #385e5f !important;
+
+}
+
+.text-ncw {
+    color: #385e5f;
+}
+.collapse .navbar-nav .nav-item{
+    position: relative;
+}
+.collapse .navbar-nav .nav-item:after{
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    height: 2px;
+    width: 0%;
+     background-image: linear-gradient(90deg, white, rgba(255, 255, 255, 0.0));
+     transition: 0.3s;
+}
+.collapse .navbar-nav .nav-item:hover:after{
+    width: 50%;
+}
+.collapse .navbar-nav .nav-item:hover:before{
+    width: 50%;
+}
+.collapse .navbar-nav .nav-item:before{
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    right: 50%;
+    height: 2px;
+    width: 0%;
+     background-image: linear-gradient(-90deg, white, rgba(255, 255, 255, 0.0));
+     transition: 0.3s
+}
+.link-active:after{
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    height: 2px;
+    width: 100%;
+    background-image: linear-gradient(-90deg,rgba(255, 255, 255, 0.0), white, rgba(255, 255, 255, 0.0));
+}
+.nav-link {
+    color: #fff;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+
+    background-color: #736d6d38;
+}
+
+.timeline {
+    padding: 20px 0px;
+    width: 90%;
+    margin-left: 10%;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+
+.timeline .column {
+    width: 100%;
+
+}
+
+.timeline .column .title h1 {
+    font-size: 120px;
+    color: #3b5c61;
+    opacity: 0.3;
+    font-family: serif;
+    letter-spacing: 3px;
+}
+
+
+.timeline .column .title h2 {
+    margin-top: -60px;
+    font-size: 33px;
+}
+
+.timeline .column .description p {
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: serif;
+}
+
+.timeline .column .description {
+    border-left: 1px solid #000;
+    width: 100%;
+}
+.link1{
+    color: unset;
+}
+.link1:hover{
+    text-decoration: none;
+}
+
+@media (max-width: 603px) {
+    .rs {
+        padding-top: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .rs {
+        padding-top: 50px;
+    }
+    .border-right-lg{
+        border-right: 1px solid #9B9B9B;
+    }
+    .bot-0 {
+        bottom: 0px;
+        z-index: 2;
+    }
+
+    .navbar-expand-lg {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+        flex-flow: column;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+}

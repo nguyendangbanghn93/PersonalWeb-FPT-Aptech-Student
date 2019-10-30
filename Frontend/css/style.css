@@ -1,0 +1,145 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+* {
+
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+}
+
+body {
+    background: #ffffff;
+}
+
+.link1:hover {
+    text-decoration: none;
+    background: #f9f9f9;
+}
+
+.title1 {
+    margin-top: 50px;
+    border-bottom: 1px solid #777474;
+    color: #007bff;
+    font-weight: 900;
+}
+
+.title2 {
+    margin-top: 30px;
+    font-weight: 900;
+}
+
+.cms {
+    width: 100px;
+}
+
+.icon-language {
+    font-weight: 900;
+}
+
+.video {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+.timeline {
+    padding: 20px 0px;
+    width: 90%;
+    margin-left: 10%;
+    margin-bottom: 40px;
+}
+
+.timeline:before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    width: 3px;
+    height: calc(100% - 80px);
+    background: #000;
+}
+
+.timeline .column {
+    width: 100%;
+
+}
+
+.timeline .column .title h1 {
+    font-size: 120px;
+    color: rgba(0, 0, 0, 0.1);
+    font-family: serif;
+    letter-spacing: 3px;
+}
+
+.timeline .column .title h1:before {
+    content: "";
+    position: absolute;
+    left: -39px;
+    top: 86px;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: 3px solid #c0392b;
+}
+
+.timeline .column .title h2 {
+    margin-top: -60px;
+    font-size: 33px;
+}
+
+.timeline .column .description p {
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: serif;
+}
+
+.timeline .column .description {
+    border-left: 1px solid #000;
+    width: 100%;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: pre-wrap !important;
+}
+.bg-ncw{
+	background: #3b5c61;
+}
+body{
+	color: #1f4681;
+	background: #ecf0f1;
+}
+
+@media screen and (max-width: 768px) {
+    .p-sm {
+        padding: 0px 5px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: column;
+    }
+
+    .navbar-expand-lg {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+        flex-flow: column;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+}
